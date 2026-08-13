@@ -9,7 +9,7 @@ public class Ex5 {
         for (i = 0; i < x.length; i++){
             x[i] = ale.nextInt(1,30);
         }
-        System.out.println("Original:");
+        System.out.println("Original: ");
         for (i  = 0; i < x.length; i++){
             System.out.print(x[i] + " ");
         }
@@ -21,7 +21,7 @@ public class Ex5 {
             x[i] = x[j];
             x[j] = aux;
         }
-        System.out.println("Invertida:");
+        System.out.println("Invertida: ");
         for (i  = 0; i < x.length; i++){
             System.out.print(x[i] + " ");
         }
